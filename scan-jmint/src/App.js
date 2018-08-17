@@ -62,10 +62,9 @@ const Presentational = () => {
   return (
     <div>
       <header className="App-header">
-      <img src = {logo} className="App-logo"/>
       <h3 className="App-tittle">Escaner</h3>
-    </header>
-    <Scan />
+      </header>
+      <Scan />
     </div>
     
   )
